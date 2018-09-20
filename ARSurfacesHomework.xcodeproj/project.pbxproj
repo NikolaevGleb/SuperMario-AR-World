@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541A6E5B21539EFC001E33C2 /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541A6E5A21539EFC001E33C2 /* backgroundmusic.mp3 */; };
+		541A6E602153B026001E33C2 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 541A6E5F2153B026001E33C2 /* logo.jpg */; };
 		54B99A65215133500018B9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B99A64215133500018B9FD /* AppDelegate.swift */; };
 		54B99A67215133500018B9FD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B99A66215133500018B9FD /* art.scnassets */; };
 		54B99A69215133500018B9FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B99A68215133500018B9FD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		541A6E5A21539EFC001E33C2 /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
+		541A6E5F2153B026001E33C2 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		54B99A61215133500018B9FD /* ARSurfacesHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSurfacesHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B99A64215133500018B9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54B99A66215133500018B9FD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		54B99A63215133500018B9FD /* ARSurfacesHomework */ = {
 			isa = PBXGroup;
 			children = (
+				541A6E5A21539EFC001E33C2 /* backgroundmusic.mp3 */,
+				541A6E5F2153B026001E33C2 /* logo.jpg */,
 				54B99A64215133500018B9FD /* AppDelegate.swift */,
 				54B99A66215133500018B9FD /* art.scnassets */,
 				54B99A68215133500018B9FD /* ViewController.swift */,
@@ -99,6 +105,12 @@
 				TargetAttributes = {
 					54B99A60215133500018B9FD = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541A6E5B21539EFC001E33C2 /* backgroundmusic.mp3 in Resources */,
+				541A6E602153B026001E33C2 /* logo.jpg in Resources */,
 				54B99A67215133500018B9FD /* art.scnassets in Resources */,
 				54B99A71215133520018B9FD /* LaunchScreen.storyboard in Resources */,
 				54B99A6E215133520018B9FD /* Assets.xcassets in Resources */,
@@ -287,14 +301,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YWR3FR3BGD;
 				INFOPLIST_FILE = ARSurfacesHomework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = glebnikolaev.ARSurfacesHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +320,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YWR3FR3BGD;
 				INFOPLIST_FILE = ARSurfacesHomework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = glebnikolaev.ARSurfacesHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
