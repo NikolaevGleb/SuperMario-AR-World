@@ -13,10 +13,15 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
-    
+    @IBOutlet weak var powLabel: UILabel!
+    @IBOutlet weak var questionBoxLabel: UILabel!
+
     let objects: [String] = ["art.scnassets/mariobox.png",
                              "art.scnassets/Brick_Block.png",
                              "art.scnassets/pow.png"]
+    
+    var powCount = 0
+    var questionCount = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,6 +85,19 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let material = SCNMaterial()
         guard let customImage = objects.randomElement() else { return SCNNode() }
+        
+        if customImage == "art.scnassets/pow.png" {
+            powCount += 1
+            if let powLabelText = powLabel.text {
+                powLabel.text = ("\(powLabelText) \(powCount)")
+            }
+        } else if customImage == "art.scnassets/mariobox.png" {
+            questionCount += 1
+            if let questionLabelText = questionBoxLabel.text {
+                questionBoxLabel.text = ("\(questionLabelText) \(questionCount)")
+            }
+        }
+        
         material.diffuse.contents = UIImage(named: customImage)
         geometry.materials = [material]
         

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JSZ-GH-kzc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,77 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Introduction View Controller-->
+        <scene sceneID="RCF-Qb-mnU">
+            <objects>
+                <viewController id="JSZ-GH-kzc" customClass="IntroductionViewController" customModule="ARSurfacesHomework" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F1G-Ft-RBE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i1I-Dc-goq">
+                                <rect key="frame" x="39" y="288" width="297" height="91"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Задание 1: Соберите 10 ящиков POW" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qs0-6z-uIg">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Задание 2: Соберите 3 ящика &quot;?&quot;" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEH-DV-If7">
+                                        <rect key="frame" x="0.0" y="30.5" width="297" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha5-dI-AQe">
+                                        <rect key="frame" x="0.0" y="61" width="297" height="30"/>
+                                        <state key="normal" title="Начать игру"/>
+                                        <connections>
+                                            <action selector="startGameButton:" destination="JSZ-GH-kzc" eventType="touchUpInside" id="LRc-Rt-IR6"/>
+                                            <segue destination="BV1-FR-VrT" kind="show" identifier="startGame" id="HlG-HF-aCv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="277" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-HT-0Lq">
+                                <rect key="frame" x="16" y="326" width="343" height="325"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добро пожаловать в AR Super Mario World !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pON-35-DBo">
+                                        <rect key="frame" x="16.5" y="0.0" width="310.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkI-Rh-pjf">
+                                        <rect key="frame" x="149" y="295" width="45" height="30"/>
+                                        <state key="normal" title="Далее"/>
+                                        <connections>
+                                            <action selector="firstButtonPressed:" destination="JSZ-GH-kzc" eventType="touchUpInside" id="S35-3b-n8p"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i1I-Dc-goq" firstAttribute="centerX" secondItem="F1G-Ft-RBE" secondAttribute="centerX" id="CXB-4p-UgD"/>
+                            <constraint firstItem="cwK-BA-3TB" firstAttribute="bottom" secondItem="x6w-HT-0Lq" secondAttribute="bottom" constant="16" id="kv2-NQ-mK7"/>
+                            <constraint firstItem="x6w-HT-0Lq" firstAttribute="leading" secondItem="cwK-BA-3TB" secondAttribute="leading" constant="16" id="qKF-Fi-RZg"/>
+                            <constraint firstItem="cwK-BA-3TB" firstAttribute="trailing" secondItem="x6w-HT-0Lq" secondAttribute="trailing" constant="16" id="qL9-eD-wPJ"/>
+                            <constraint firstItem="i1I-Dc-goq" firstAttribute="centerY" secondItem="F1G-Ft-RBE" secondAttribute="centerY" id="syo-VN-rqb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cwK-BA-3TB"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstPhrasesStackView" destination="x6w-HT-0Lq" id="Aor-v5-nvp"/>
+                        <outlet property="secondPhrasesStackView" destination="i1I-Dc-goq" id="gVe-Ij-5dN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cio-eX-cUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-687.20000000000005" y="26.53673163418291"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
@@ -46,19 +117,38 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="POW Count:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iop-cG-Mc3">
+                                <rect key="frame" x="16" y="36" width="124" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;? BOX&quot; Count:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ke6-Yu-sQV">
+                                <rect key="frame" x="242.5" y="36" width="116.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ke6-Yu-sQV" firstAttribute="top" secondItem="Mdt-ee-BQg" secondAttribute="top" constant="16" id="15Q-oD-DOp"/>
                             <constraint firstItem="Mdt-ee-BQg" firstAttribute="bottom" secondItem="B2b-Aa-qsd" secondAttribute="bottom" constant="16" id="4bg-cL-Fgg"/>
+                            <constraint firstItem="Iop-cG-Mc3" firstAttribute="top" secondItem="Mdt-ee-BQg" secondAttribute="top" constant="16" id="Crj-FK-ODd"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="trailing" secondItem="Mdt-ee-BQg" secondAttribute="trailing" id="SbN-6w-ldG"/>
+                            <constraint firstItem="Mdt-ee-BQg" firstAttribute="trailing" secondItem="ke6-Yu-sQV" secondAttribute="trailing" constant="16" id="XkJ-K0-Eq4"/>
+                            <constraint firstItem="ke6-Yu-sQV" firstAttribute="leading" secondItem="Iop-cG-Mc3" secondAttribute="trailing" constant="102.5" id="c9q-OV-Zb6"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="top" secondItem="3Id-g9-fF1" secondAttribute="top" id="cqY-fY-8oU"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="bottom" secondItem="Mdt-ee-BQg" secondAttribute="bottom" id="d2W-WL-o6a"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" id="dxd-8m-g1b"/>
                             <constraint firstItem="B2b-Aa-qsd" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" constant="16" id="gXh-bM-HZ8"/>
+                            <constraint firstItem="Iop-cG-Mc3" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" constant="16" id="nhX-mY-IIx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mdt-ee-BQg"/>
                     </view>
                     <connections>
+                        <outlet property="powLabel" destination="Iop-cG-Mc3" id="Ibc-Yg-vck"/>
+                        <outlet property="questionBoxLabel" destination="ke6-Yu-sQV" id="gah-q0-DqR"/>
                         <outlet property="sceneView" destination="sMD-CP-cgf" id="BCR-xt-9n5"/>
                     </connections>
                 </viewController>
