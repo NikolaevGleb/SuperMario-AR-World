@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JSZ-GH-kzc">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,26 +14,26 @@
             <objects>
                 <viewController id="JSZ-GH-kzc" customClass="IntroductionViewController" customModule="ARSurfacesHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F1G-Ft-RBE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i1I-Dc-goq">
-                                <rect key="frame" x="39" y="288" width="297" height="91"/>
+                                <rect key="frame" x="58.666666666666657" y="322.66666666666669" width="296.66666666666674" height="90.666666666666686"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Задание 1: Соберите 10 ящиков POW" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qs0-6z-uIg">
-                                        <rect key="frame" x="0.0" y="0.0" width="297" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="296.66666666666669" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Задание 2: Соберите 3 ящика &quot;?&quot;" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEH-DV-If7">
-                                        <rect key="frame" x="0.0" y="30.5" width="297" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="30.333333333333314" width="296.66666666666669" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha5-dI-AQe">
-                                        <rect key="frame" x="0.0" y="61" width="297" height="30"/>
+                                        <rect key="frame" x="0.0" y="60.666666666666629" width="296.66666666666669" height="30"/>
                                         <state key="normal" title="Начать игру"/>
                                         <connections>
                                             <action selector="startGameButton:" destination="JSZ-GH-kzc" eventType="touchUpInside" id="LRc-Rt-IR6"/>
@@ -43,16 +43,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="277" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-HT-0Lq">
-                                <rect key="frame" x="16" y="326" width="343" height="325"/>
+                                <rect key="frame" x="16" y="395" width="382" height="325"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добро пожаловать в AR Super Mario World !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pON-35-DBo">
-                                        <rect key="frame" x="16.5" y="0.0" width="310.5" height="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добро пожаловать в AR Super Mario World !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pON-35-DBo">
+                                        <rect key="frame" x="36" y="0.0" width="310.33333333333331" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkI-Rh-pjf">
-                                        <rect key="frame" x="149" y="295" width="45" height="30"/>
+                                        <rect key="frame" x="168.66666666666666" y="295" width="45" height="30"/>
                                         <state key="normal" title="Далее"/>
                                         <connections>
                                             <action selector="firstButtonPressed:" destination="JSZ-GH-kzc" eventType="touchUpInside" id="S35-3b-n8p"/>
@@ -85,14 +85,14 @@
             <objects>
                 <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARSurfacesHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Id-g9-fF1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sMD-CP-cgf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </arscnView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="B2b-Aa-qsd">
-                                <rect key="frame" x="16" y="601" width="156" height="50"/>
+                                <rect key="frame" x="16" y="670" width="156" height="50"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="Dif-CW-deg">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -118,13 +118,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="POW Count:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iop-cG-Mc3">
-                                <rect key="frame" x="16" y="36" width="124" height="20.5"/>
+                                <rect key="frame" x="16" y="36" width="188.66666666666666" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;? BOX&quot; Count:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ke6-Yu-sQV">
-                                <rect key="frame" x="242.5" y="36" width="116.5" height="20.5"/>
+                                <rect key="frame" x="16" y="64" width="117" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -132,12 +132,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ke6-Yu-sQV" firstAttribute="top" secondItem="Mdt-ee-BQg" secondAttribute="top" constant="16" id="15Q-oD-DOp"/>
+                            <constraint firstItem="ke6-Yu-sQV" firstAttribute="top" secondItem="Iop-cG-Mc3" secondAttribute="bottom" constant="7.6666666666666714" id="3hd-QA-lg2"/>
                             <constraint firstItem="Mdt-ee-BQg" firstAttribute="bottom" secondItem="B2b-Aa-qsd" secondAttribute="bottom" constant="16" id="4bg-cL-Fgg"/>
+                            <constraint firstItem="Mdt-ee-BQg" firstAttribute="trailing" secondItem="ke6-Yu-sQV" secondAttribute="trailing" constant="281" id="6Hz-3D-W4h"/>
                             <constraint firstItem="Iop-cG-Mc3" firstAttribute="top" secondItem="Mdt-ee-BQg" secondAttribute="top" constant="16" id="Crj-FK-ODd"/>
+                            <constraint firstItem="Mdt-ee-BQg" firstAttribute="trailing" secondItem="Iop-cG-Mc3" secondAttribute="trailing" constant="209.5" id="Lox-Ft-hhU"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="trailing" secondItem="Mdt-ee-BQg" secondAttribute="trailing" id="SbN-6w-ldG"/>
-                            <constraint firstItem="Mdt-ee-BQg" firstAttribute="trailing" secondItem="ke6-Yu-sQV" secondAttribute="trailing" constant="16" id="XkJ-K0-Eq4"/>
-                            <constraint firstItem="ke6-Yu-sQV" firstAttribute="leading" secondItem="Iop-cG-Mc3" secondAttribute="trailing" constant="102.5" id="c9q-OV-Zb6"/>
+                            <constraint firstItem="ke6-Yu-sQV" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" constant="16" id="TIL-81-DcN"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="top" secondItem="3Id-g9-fF1" secondAttribute="top" id="cqY-fY-8oU"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="bottom" secondItem="Mdt-ee-BQg" secondAttribute="bottom" id="d2W-WL-o6a"/>
                             <constraint firstItem="sMD-CP-cgf" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" id="dxd-8m-g1b"/>
@@ -154,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+            <point key="canvasLocation" x="52.5" y="26.25"/>
         </scene>
     </scenes>
     <resources>
