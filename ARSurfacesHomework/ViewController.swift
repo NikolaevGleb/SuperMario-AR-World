@@ -53,6 +53,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func generateObject(planeAnchor: ARPlaneAnchor) -> SCNNode {
+        pointsChecker()
         let objectNode = SCNNode()
         let geometry = SCNBox(width: 0.15, height: 0.15, length: 0.15, chamferRadius: 0)
         let material = SCNMaterial()
@@ -66,13 +67,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         case "art.scnassets/Brick_Block.png":
             if lives >= 3 {
                 lives -= 1
-                //firstHeart.isHidden = true
+                firstHeart.isHidden = true
             } else if lives == 2 {
                 lives -= 1
-                //secondHeart.isHidden = true
+                secondHeart.isHidden = true
             } else if lives == 1 {
                 lives -= 1
-                //thirdHeart.isHidden = true
+                thirdHeart.isHidden = true
                 gameOver()
             }
         default:
@@ -91,7 +92,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
         let object = generateObject(planeAnchor: planeAnchor)
         node.addChildNode(object)
-        pointsChecker()
         
     }
     
@@ -123,7 +123,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         })
         alert.addAction(action)
         self.present(alert, animated: true, completion: nil)
-        
     }
     
     func reset() {
