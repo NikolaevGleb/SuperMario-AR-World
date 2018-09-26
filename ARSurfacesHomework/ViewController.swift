@@ -61,9 +61,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         switch customImage {
         case "art.scnassets/pow.png":
             powCount += 1
+            guard let _ = powLabel.text else { break }
             powLabel.text = ("POW Count:\(powCount)")
         case "art.scnassets/mariobox.png":
             questionCount += 1
+            guard let _ = questionBoxLabel.text else { break }
             questionBoxLabel.text = ("'? BOX' Count:\(questionCount)")
         case "art.scnassets/Brick_Block.png":
             if lives >= 3 {

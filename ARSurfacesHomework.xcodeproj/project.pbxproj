@@ -22,6 +22,7 @@
 		541A6E5A21539EFC001E33C2 /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
 		541A6E5F2153B026001E33C2 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		541AE96221597C68005EAE39 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		545B307B215BF58B0024C3F7 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
 		54B99A61215133500018B9FD /* ARSurfacesHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSurfacesHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B99A64215133500018B9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54B99A66215133500018B9FD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 				541A6E5A21539EFC001E33C2 /* backgroundmusic.mp3 */,
 				541A6E5F2153B026001E33C2 /* logo.jpg */,
 				54B99A64215133500018B9FD /* AppDelegate.swift */,
+				545B307B215BF58B0024C3F7 /* SuperMario256.ttf */,
 				54B99A66215133500018B9FD /* art.scnassets */,
 				54B99A68215133500018B9FD /* ViewController.swift */,
 				54B99A6A215133500018B9FD /* Main.storyboard */,
