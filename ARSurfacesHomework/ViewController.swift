@@ -66,13 +66,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         case "art.scnassets/Brick_Block.png":
             if lives >= 3 {
                 lives -= 1
-                firstHeart.isHidden = true
+                //firstHeart.isHidden = true
             } else if lives == 2 {
                 lives -= 1
-                secondHeart.isHidden = true
+                //secondHeart.isHidden = true
             } else if lives == 1 {
                 lives -= 1
-                thirdHeart.isHidden = true
+                //thirdHeart.isHidden = true
                 gameOver()
             }
         default:
