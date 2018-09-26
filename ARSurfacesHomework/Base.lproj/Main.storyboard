@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JSZ-GH-kzc">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,32 +19,32 @@
             <objects>
                 <viewController id="JSZ-GH-kzc" customClass="IntroductionViewController" customModule="ARSurfacesHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F1G-Ft-RBE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i1I-Dc-goq">
-                                <rect key="frame" x="47" y="274" width="281.5" height="119.5"/>
+                                <rect key="frame" x="66.333333333333343" y="308.33333333333331" width="281.66666666666663" height="119.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Rules:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCU-hB-eh8">
-                                        <rect key="frame" x="0.0" y="0.0" width="281.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="281.66666666666669" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collect 10 POW Crates to win" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qs0-6z-uIg">
-                                        <rect key="frame" x="0.0" y="30.5" width="281.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="30.333333333333371" width="281.66666666666669" height="20"/>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you collect 3 Brick Boxes you will lose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEH-DV-If7">
-                                        <rect key="frame" x="0.0" y="60.5" width="281.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="60.333333333333371" width="281.66666666666669" height="20"/>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha5-dI-AQe">
-                                        <rect key="frame" x="0.0" y="90.5" width="281.5" height="29"/>
+                                        <rect key="frame" x="0.0" y="90.333333333333371" width="281.66666666666669" height="29"/>
                                         <fontDescription key="fontDescription" name="SuperMarioGalaxy" family="Super Mario 256" pointSize="17"/>
                                         <state key="normal" title="Start"/>
                                         <connections>
@@ -55,16 +55,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="277" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-HT-0Lq">
-                                <rect key="frame" x="16" y="328" width="343" height="323"/>
+                                <rect key="frame" x="16" y="397" width="382" height="323"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the AR Super Mario World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pON-35-DBo">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="17"/>
                                         <fontDescription key="fontDescription" name="SuperMarioGalaxy" family="Super Mario 256" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkI-Rh-pjf">
-                                        <rect key="frame" x="147.5" y="294" width="48" height="29"/>
+                                        <rect key="frame" x="167" y="294" width="48" height="29"/>
                                         <fontDescription key="fontDescription" name="SuperMarioGalaxy" family="Super Mario 256" pointSize="17"/>
                                         <state key="normal" title="Next"/>
                                         <connections>
@@ -98,63 +98,80 @@
             <objects>
                 <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARSurfacesHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Id-g9-fF1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sMD-CP-cgf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sMD-CP-cgf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </arscnView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="B2b-Aa-qsd">
-                                <rect key="frame" x="16" y="601" width="1746" height="580"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="Dif-CW-deg">
-                                        <rect key="frame" x="0.0" y="0.0" width="580" height="580"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="tnp-xU-455">
-                                        <rect key="frame" x="583" y="0.0" width="580" height="580"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-Y8-qUa">
-                                        <rect key="frame" x="1166" y="0.0" width="580" height="580"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="RWy-Bm-7Kq">
-                                <rect key="frame" x="16" y="36" width="115" height="49"/>
+                                <rect key="frame" x="16" y="36" width="116" height="42"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="POW Count:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iop-cG-Mc3">
-                                        <rect key="frame" x="0.0" y="0.0" width="115" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="116" height="17"/>
+                                        <fontDescription key="fontDescription" name="SuperMarioGalaxy" family="Super Mario 256" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'? BOX' Count: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ke6-Yu-sQV">
-                                        <rect key="frame" x="0.0" y="28.5" width="115" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="? Count:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baj-5d-xTk">
+                                        <rect key="frame" x="0.0" y="25" width="116" height="17"/>
+                                        <fontDescription key="fontDescription" name="SuperMarioGalaxy" family="Super Mario 256" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="EyC-bl-qIc">
+                                <rect key="frame" x="16" y="670" width="182" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="gRR-sk-hpE">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="31m-Md-fsM"/>
+                                            <constraint firstAttribute="width" constant="50" id="eCZ-IR-Moj"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="2pP-Nc-j0y">
+                                        <rect key="frame" x="66" y="0.0" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="OYe-ui-lzL">
+                                        <rect key="frame" x="132" y="0.0" width="50" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gRR-sk-hpE" firstAttribute="width" secondItem="2pP-Nc-j0y" secondAttribute="width" id="08s-CP-HrB"/>
+                                    <constraint firstItem="2pP-Nc-j0y" firstAttribute="width" secondItem="OYe-ui-lzL" secondAttribute="width" id="Zc2-Hn-ACH"/>
+                                    <constraint firstItem="gRR-sk-hpE" firstAttribute="height" secondItem="2pP-Nc-j0y" secondAttribute="height" id="iXu-Ea-LGo"/>
+                                    <constraint firstItem="2pP-Nc-j0y" firstAttribute="height" secondItem="OYe-ui-lzL" secondAttribute="height" id="ulX-ZC-675"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="sMD-CP-cgf" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" id="HDo-D6-hgG"/>
+                            <constraint firstItem="sMD-CP-cgf" firstAttribute="top" secondItem="3Id-g9-fF1" secondAttribute="top" id="NEN-SQ-f96"/>
+                            <constraint firstItem="Mdt-ee-BQg" firstAttribute="bottom" secondItem="sMD-CP-cgf" secondAttribute="bottom" id="Q8z-zW-Sed"/>
                             <constraint firstItem="Mdt-ee-BQg" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RWy-Bm-7Kq" secondAttribute="trailing" constant="160" id="Smh-MZ-YUO"/>
+                            <constraint firstItem="Mdt-ee-BQg" firstAttribute="bottom" secondItem="EyC-bl-qIc" secondAttribute="bottom" constant="16" id="W1p-6b-ErI"/>
                             <constraint firstItem="RWy-Bm-7Kq" firstAttribute="top" secondItem="Mdt-ee-BQg" secondAttribute="top" constant="16" id="ZpV-9A-w7b"/>
                             <constraint firstItem="RWy-Bm-7Kq" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" constant="16" id="cop-QT-Ziq"/>
+                            <constraint firstAttribute="trailing" secondItem="sMD-CP-cgf" secondAttribute="trailing" id="f6l-Zp-M5O"/>
+                            <constraint firstItem="EyC-bl-qIc" firstAttribute="leading" secondItem="Mdt-ee-BQg" secondAttribute="leading" constant="16" id="u4X-fl-zaE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mdt-ee-BQg"/>
                     </view>
                     <connections>
+                        <outlet property="firstHeart" destination="OYe-ui-lzL" id="K4D-H1-omv"/>
                         <outlet property="powLabel" destination="Iop-cG-Mc3" id="Ibc-Yg-vck"/>
-                        <outlet property="questionBoxLabel" destination="ke6-Yu-sQV" id="gah-q0-DqR"/>
+                        <outlet property="questionBoxLabel" destination="Baj-5d-xTk" id="pkp-2V-eSM"/>
                         <outlet property="sceneView" destination="sMD-CP-cgf" id="BCR-xt-9n5"/>
+                        <outlet property="secondHeart" destination="2pP-Nc-j0y" id="eeE-sX-cTX"/>
+                        <outlet property="thirdHeart" destination="gRR-sk-hpE" id="2aW-pb-Yza"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="26.25"/>
+            <point key="canvasLocation" x="50.724637681159422" y="25.271739130434785"/>
         </scene>
     </scenes>
     <resources>
